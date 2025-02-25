@@ -21,9 +21,15 @@ public class RobotTask {
 		field.showThingCounts(true);
 		
 		// build a robot in the city waterloo starting 
-		//FieldPlanter rob = new FieldPlanterOdd(field, 1, 0, Direction.EAST, 100);
-		
+		FieldPlanter rob = null;  //what is null??
 
+		rob = new Lay2 (field, 1, 0, Direction.EAST, 100);  //will define rob to a 2 layer bot
+		
+		rob.layRow(4);
+
+		rob = new Lay3 (field, 2, 0, Direction.EAST, 100);
+
+		rob.layRow(4);
 
 	}
 }

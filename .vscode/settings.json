@@ -1,0 +1,6 @@
+{
+    "java.project.referencedLibraries": [
+        "lib/**/*.jar",
+        "Field Planter Demo/lib/becker.jar"
+    ]
+}
