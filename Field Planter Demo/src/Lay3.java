@@ -14,4 +14,13 @@ public class Lay3 extends FieldPlanter{
         putThing();putThing();putThing();
     }
 
+    @Override
+    public void happyDance() {
+        // TODO Auto-generated method stub
+       for (int i = 0;i<100;i++){
+            turnRight();
+            turnLeft();
+       }
+    }
+
 }

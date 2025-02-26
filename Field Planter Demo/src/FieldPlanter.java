@@ -36,9 +36,10 @@ public abstract class FieldPlanter extends RobotSE {
             move(); // common task
             plant(); // difference task
         }
+        happyDance();
 
     }
 
     public abstract void plant(); // all difference tasks must be abstract (not yet defined)
-
+    public abstract void happyDance();
 }

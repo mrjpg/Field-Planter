@@ -13,4 +13,10 @@ public class Lay2 extends FieldPlanter {
        putThing();putThing();
     }
 
+    @Override
+    public void happyDance() {
+        // TODO Auto-generated method stub
+        System.out.println("I don't DANCE!");
+    }
+
 }
